@@ -29,7 +29,7 @@
                       The player uses the arrow keys to dodge the obstacles— pedestrians,
                       crossing animals, and other cars— all while trying to collect coins.
                       The goal of the game: get as many coins as possible without getting
-                      kicked out of the class. Driver’s Education uses graphic concepts,
+                      kicked out of the class. Driver’s Education uses computer graphics concepts,
                       such as polygonal meshes, light rendering, and collision modelling,
                       to create an enjoyable and aesthetically-pleasing game for players.
 
@@ -40,7 +40,7 @@
                     <p>
                       Driver’s Education is an infinite-runner style game.
                       The player controls a car that is driving down a rendered
-                      cartoon-version of Washington Road complete with all the iconic
+                      cartoon version of Washington Road complete with all the iconic
                       buildings on Princeton’s campus. In making this game, we wanted
                       to pay homage to infinite-runner games that we played when we
                       were young, like Temple Run and Crossy Road. To do so, we
@@ -57,11 +57,11 @@
                     <p>
                       The purpose of this game, like most video games, is to serve
                       as a relaxing activity for the player and be a fun distraction.
-                      We thought that designing games like Driver’s Education is
-                      especially given the circumstances we are in. Having video games
-                      can make being quarantined more enjoyable and pass the time quicker.
+                      We thought that designing a game like Driver’s Education is
+                      especially important given the unprecedented circumstances we are in.
+                      Having video games can make being quarantined more enjoyable and pass the time quicker.
                       More importantly, like many Princeton students, we the creators miss
-                      being on the University’s campus and enjoying the spring semester.
+                      being on the University’s campus and enjoying our spring semester.
                       That is why we chose to recreate Princeton scenery and niche inside
                       campus jokes as a means to have a bit of campus with us even though
                       we are away from it. For example, we made roadside objects
@@ -76,7 +76,7 @@
                       For Driver’s Ed, we were inspired by industrial examples, Temple Run and Crossy Road,
                       and open-source examples, Aviator and Boxy Run:
                       <li>
-                         In <strong>Temple Run</strong>, the player controls an explorer who is
+                        In <strong>Temple Run</strong>, the player controls an explorer who is
                         being chased by demonic monkeys. The point of the game is
                         to run for as long as possible while avoiding obstacles and
                         collecting coins for boosts and points.
@@ -105,26 +105,26 @@
                       while navigating through an endless path filled with obstacles and rewards.
                       We feel that this infinite-runner style approach is very successful,
                       as it provides the perfect balance between stress and reward. Specifically,
-                      it keeps players on edge, curious about what is about to come next, and
+                      it keeps players on edge, makes them curious about what is about to come next, and
                       provides instant gratification for successfully avoiding the upcoming obstacle
                       or collecting the reward. It also allows players to get into a “zone,”
                       a sort of relaxing, yet thrilling, flow from overcoming the dynamic challenges.
                       Above all, these games are simple to play, with controls and goals that are
-                      easy to understand, but challenging enough to prevent players from mastering t
-                      he entire game. Here, the only competitor is the player and their previous high score.
-                      There’s a certain level of personal skill required and the development of this
+                      easy to understand, but challenging enough to prevent players from mastering
+                      the entire game. Here, the only competitor is the player and their previous high score.
+                      There is a certain level of personal skill required and the development of this
                       skill feels obtainable, which ensures players always come back to play.
                     </p>
                     <p> <h3> Approach </h3> </p>
                       <li>
                         <strong> <u> User Experience: </u> </strong> Considering how infinite-runner games
-                        like Temple Run and Crossy Road have proved to be widely successful,
+                        like Temple Run and Crossy Road have proven to be widely successful,
                         we decided to take a similar approach. The controls and goal of the game
-                        are simple and there are enough obstacles on the road to create a right
-                        amount of challenge. Other than to dodge obstacles, there’s also an
+                        are simple and there are enough obstacles on the road to create the right
+                        amount of challenge. Other than to dodge obstacles, there is also an
                         incentive for the player to move around to collect coins for a high score
                         and the occasional invincibility item to help them last longer.
-                        Collectively, we feel that this infinite-runner style with the right amount
+                        Collectively, we feel that this infinite-runner style with the optimal amount
                         of obstacles and rewards would give players a satisfying thrill and desire
                         to keep playing to top their personal scores.
                       </li>
@@ -134,17 +134,18 @@
                         have little difficulty learning the game. Because of this, we first
                         created the game basics of just controlling a car with a small number
                         of obstacles and coins on the road before moving forward to add more
-                        scenery, complex obstacles/prizes, acceleration/deceleration features a
-                        nd temporal changes. This proved to be an effective and efficient process,
+                        scenery, complex obstacles/prizes, acceleration/deceleration features,
+                        and temporal changes. This proved to be an effective and efficient process,
                         as we ensured we had the rudimentary base of the game down before
                         adding more elaborate features to maintain user engagement and
-                        ensure the right amount of difficulty.
+                        ensure the proper amount of difficulty.
                       </li>
                       <li>
                         <strong> <u> Low-Level Game Design: </u></strong> Driver’s Ed was created
                         primarily using JavaScript and the three.js library.
                         We chose to use three.js because it is well-documented and because
                         all of us have experience with it from the assignments.
+                        We used the starter code provided by the course instructors.
                         All of the user interfaces, such as the pop-up begin instructions
                         and score/lives board, were created using HTML and CSS.
                       </li>
@@ -185,14 +186,14 @@
                         While we definitely could have taken the easier route
                         and only used existing meshes from Google Poly
                         and other libraries, which would have resulted in a much
-                        more generic scene/game premise, we decided to make a lot of
+                        more generic scene/game premise, we decided to make most of our mesh on
                         our own because we wanted Driver’s Ed to be Princeton themed.
                         This meant that all of the buildings, such as Firestone Library
                         and Fine Hall, had to be modelled by ourselves since they
                         simply didn’t exist elsewhere. Generally, these buildings
                         were created by merging three.js meshes like planes and boxes.
-                        We used MeshToonMaterial() to evoke the cartoon-esque feel t
-                        hat we wanted for our scenery. For the less Princeton specific meshes,
+                        We used MeshToonMaterial() to evoke the cartoon-esque feel
+                        that we wanted for our scenery. For the less Princeton specific meshes,
                         such as the sun and moon, we decided to primarily rely on
                         Google Poly since a lot of the available meshes matched
                         our low-poly aesthetic.
@@ -217,7 +218,7 @@
                         coordinates of the vertices so the terrain appeared to have
                         changes in height as we drove through the scene.
                         Other options that we considered for the grass including
-                        modelling stacked voxels, modelling after terrain in Minecraft.
+                        modelling stacked voxels, reminescent of the terrain in Minecraft.
                         We decided against using this technique because it not only
                         slowed down our game given the number of voxels we had to
                         generate but also because it detracted from the low-poly
@@ -236,7 +237,8 @@
                       </figure>
                       <p>
                         For the sky, to create a feeling of time and progression as the car keeps driving,
-                        temporal features were added to the sky. The color of the sky changes from a light sky blue to a dark blue as the time of day progresses from day to night.
+                        temporal features were added to the sky. The color of the sky changes
+                        from a light sky blue to a dark blue as the time of day progresses from day to night.
                         The exact process for this will be covered in the Night Mode section.
                       </p>
                       <p>
@@ -293,7 +295,7 @@
                       </p>
                       <p>
                         Coins are the main incentive feature in our game. They are
-                        randomly placed along the road. The player is supposed to weave
+                        randomly placed along the road. The player is supposed to drive
                         around obstacles to collect as many coins as possible.
                       </p>
                       <figure>
@@ -312,9 +314,9 @@
                         the car gets an invincibility boost, the appearance changes from
                         the normal red to a holographic texture. During this period, the
                         car will not lose lives when it collides with objects in the scene.
-                        We measured the time elapsed since collecting item, and after, the
-                        time elapsed crosses a threshold, the holographic texture flickers and
-                        the car reverts to its normal appearance.
+                        We measured the time elapsed since collecting the item, and after, the
+                        time elapsed exceeds a set threshold, the holographic texture flickers and
+                        the car reverts to its normal state.
                     <p>
                       <u><strong> Car Movement </strong></u>
                       <p>
@@ -369,7 +371,7 @@
                       <p>
                         Everything moves with respect to the driver, so all the objects
                         in the scene are moving towards the camera (in the positive z-direction)
-                        when the player is in motion, and they stop or slow down to their
+                        when the player is in motion. Objects stop or slow down to their
                         intrinsic speed when the player stops. This speed is controlled
                         by a gameSpeed variable native to the scene. In the default state
                         (no auxiliary game conditions imposed), the update loop of every object
@@ -400,8 +402,8 @@
                         occurs, we call the collision function of the gameplay object to reset
                         its position, and then subtract a life, toggle invincibility, etc.
                         To increase efficiency, we also only check for collisions between
-                        the driver and another object if the other object has a z-position close
-                        enough to the z-position of the driver, which is fixed.
+                        the driver and another object if that other object has a z-position close
+                        enough to the z-position of the driver, which remains fixed.
                       </p>
                       <p>
                         For the other vehicles in the game, we anticipate and avoid
@@ -435,7 +437,7 @@
                       </figure>
                       <p>
                         There are four stages of day that we modelled: day, dusk, night, and dawn.
-                        The goal is to emulate the lightening and darkening stages in an actual day.
+                        The goal is to emulate the lightening and darkening stages in an actual day .
                         During the day stage, we have the background set to #7ec0ee and the ambient and
                         hemisphere light intensity set to 1.2 and 1.5, respectively. Similarly, during the
                         night stage we have the background set to #11223d and the ambient and hemisphere to
@@ -444,12 +446,14 @@
                       </p>
                       <p>
                         We also included streetlights and headlights for the car that are activated.
-                        The bulbs of the streetlights are modelled as PointLights that sit inside an opaque sphere.
+                        The bulbs of the streetlights are modelled as PointLights that sit inside an opaque sphere mesh.
                         Halfway through the dusk stage, the intensity of the lights begins to increase to represent
-                        the lights coming on at night. The color of the bulb also changes from white to yellow as
-                        another means of representing the light growing stronger. The headlights are modelled as SpotLights.
-                        To emulate the conical shape of light from headlights, the angle was restricted to 0.1.
-                        Unlike the streetlights which gradually come on, the headlights only turn on during
+                        the lights gradually coming on at night. The color of the bulb also changes from white to yellow as
+                        another means of representing the light growing stronger.
+                      </p>
+                      <p>
+                        The headlights of the car are modelled as SpotLights. To emulate the conical shape of light from headlights,
+                        the angle was restricted to 0.1. Unlike the streetlights which gradually come on, the headlights only turn on during
                         the night stage. We chose to do this because this more closely mirrors how headlights
                         are used in real life, and the aesthetic effect of the sudden switch provides a salient
                         contrast to the dark background.
@@ -480,7 +484,7 @@
                       <p>
                         For each of the scenarios, we looked for 8-bit sounds online
                         and downloaded them in .wav files. Then we created HTML Audio
-                        objects with the .wav files, calling play()when they were needed.
+                        objects with the .wav files, calling play() when they were needed.
                         Hitting coins and objects was a special case. It’s possible to hit
                         multiple coins or objects in a row. We ran into the problem where
                         if you hit a second coin before the first coin’s ding finished playing,
@@ -545,15 +549,15 @@
                       <p>
                         We wanted to optimize the game so that we could minimize lag.
                         We started by merging our meshes together. Since we created our own meshes,
-                        they had a lot of children parts that were not merged together.
+                        they had a lot of children parts that were not combined.
                         To reduce the number of geometries that had to be rendered,
                         we merged them together. While this helped somewhat, we still had
                         room to improve. Next, we reduced the number of grass, sidewalk,
                         and road planes. We initially had more than one to create the
                         moving effect. However, we decided to cut back on this and
-                        mimic the effect by moving the stripes on the plane instead.
+                        mimic the effect by moving different features on the planes instead.
                         Finally, we originally had 12 street lights in the scene, each
-                        with their own point light. Since additional lights slowed down
+                        with their own PointLight. Since additional lights slowed down
                         our game, we reduced it down to 6 lights, which improved our
                         runtime. While we believe the game can continue to be optimized,
                         we believe the steps we took greatly improved the speed of the game.
@@ -568,7 +572,7 @@
                       planned to only have the pedestrians and foxes as potential obstacles.
                       However, after playing it ourselves, we found the game to be too easy,
                       which inspired us to add more meshes, like the crosswalks and other
-                      cars on the road in order to make the game more lively. Given that
+                      cars on the road in an attempt to make the game more lively. Given that
                       we fall within the target audience (i.e. Princeton students) of this
                       game, we felt that play-testing the game during the initial phases
                       was an adequate reflection of the opinions of actual potential players.
@@ -590,8 +594,8 @@
                       computers, leading us to do more optimizations on our game.
                     </p>
                     <p>
-                      Overall, the results were positive and indicated that the we had fulfilled the goals we set out to accomplish (i.e. making a fun game and reminding people of Princeton).
-
+                      Overall, the results were positive and indicated that the we had fulfilled the
+                      goals we set out to accomplish (i.e. making a fun game and reminding people of Princeton).
                     </p>
                     <hr />
                     <h2>Discussion</h2>
@@ -600,15 +604,18 @@
                         moving the objects in the rest of the scene towards the driver.
                         Overall, we believe our approach to this worked out well, and it was the most
                         straightforward to implement, allowing us to think about alternative add-ons.
-                        An alternative direction would have been to hold the scene static, and move the driver and the camera forward,
-                        until we reach the end of the scene plane at which point we would move the entire scene forward. Experimenting with
+                        An alternative direction would have been to hold the scene static, and move
+                        the driver and the camera forward, until we reach the end of the scene plane at
+                        which point we would move the entire scene forward. Experimenting with
                         this game structure could be done in the future to see if it reduces lag.
                     </p>
                     <p>
-                        We learned a great deal about the THREE.js graphics library while doing this project, as well as basic game development.
-                        We also learned just how acute the issue of frame rate can be in computer graphics. While our game consisted of a single simple scene,
-                        the frame rate and lag had a huge variance across different machines. Going through the optimization stage of development
-                        really taught us how resourceful we must be with our computations.
+                        We learned a great deal about the THREE.js graphics library while doing this project,
+                        as well as basic game development. We also learned just how acute the issue of frame
+                        rate can be in computer graphics. While our game consisted of a single simple scene,
+                        the frame rate and lag had a huge variance across different machines. Going
+                        through the optimization stage of development really taught us how resourceful
+                        we must be with our computations.
                     </p>
                     <hr />
                     <h2>Conclusion</h2>
